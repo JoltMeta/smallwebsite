@@ -19,6 +19,7 @@
                 @include('inc.sidenav')
         </div>
         <div class="col-md-8 col-lg-8">
+                @include('inc.messages')
                 @yield('content')
         </div>
     </div>
